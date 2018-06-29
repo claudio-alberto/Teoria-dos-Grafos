@@ -1,0 +1,81 @@
+﻿
+Aresta Paralela
+
+J, C, E,
+a1(J-C), a2(C-E), a3(E-C)
+
+
+
+Aresta não paralela
+
+J, C, E, P, M, T, Z
+
+a1(J-C), a2(C-E), a3(C-P)
+
+
+
+Adjacente Próprio
+
+A, B, C
+
+a1(A-B), a2(B-B), a3(C-C)
+
+
+
+Grafo Completo
+
+A, B, C
+a1(A-B), a2(B-C), a3(C-A)
+
+
+
+Ciclo
+
+A, B, C
+
+a1(A-B), a2(B-C), a3(C-A)
+
+
+
+Grafo inválido
+
+A, B,C
+
+a1(A-B), a2(B-C), a3(C-A)
+
+
+
+Grafo Conexo
+
+A, B, C, D, E, F
+
+a1(A-B), a2(B-C), a3(C-D), a4(D-A), a5(D-E), a6(E-F)
+
+
+
+vertices = ['A', 'B', 'C', 'D', 'E', 'F']
+
+lista = ['A-B', 'B-C', 'C-D', 'D-A', 'D-E', 'E-F']
+
+arestas = ['a1', 'a2', 'a3', 'a4', 'a5', 'a6']
+
+
+
+Grafo Não Conexo
+
+A, B, C, D, E, F, G
+
+a1(A-B), a2(B-C), a3(C-D), a4(D-A), a5(E-F), a6(F-F), a7(G-H), a8(H-E)
+ 
+
+
+A, B, C, D
+
+a1(A-B), a2(B-C), a3(C-D)
+
+Caminho Euleriano
+
+A, B, C, D, E, F, G, H, I
+
+a1(A-B), a2(B-C), a3(C-D), a4(D-E), a5(E-F), a6(F-G), a7(G-H), a8(H-E), a9(B-I), a10(I-B), a11(A-C)
+
