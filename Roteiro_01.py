@@ -74,6 +74,7 @@ def grafo_completo(vert, lista):
     return "Grafo completo: " + str(True)
 
 def inicio():
+    print("Digite o grafo: ")
     vert = input().split(", ")
     aresta = input().split(", ")
     dicio = {}
@@ -159,7 +160,7 @@ def menu(lista, vert, arestas, grafo, vertices):
         menu(lista, vert, arestas, grafo, vertices)
 
     elif(opcao == 8):
-        inicio()
+        pass
 
 # vert = [A, B, C]
 # lista = ['A-B', 'B-C', 'C-A']
